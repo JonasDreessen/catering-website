@@ -227,7 +227,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #161d27;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 img {
     max-width: 100%;
@@ -818,9 +818,9 @@ a.more-details .fa{
 .bkg-img1 {
     background-image: url('../img/pics/bkg-img1.jpg');  
 }
-.bkg-img2 {
+/* .bkg-img2 {
     background-image: url('../img/pics/bkg-img2.png');  
-}
+} */
 .bkg-img3 {
     background-image: url('../img/pics/bkg-img3.jpg');  
 }
@@ -3623,4 +3623,5 @@ textarea:-ms-input-placeholder {
     -ms-transition: all 0.1s ease 0s;
     transition: all 0.1s ease 0s;
 }
+
 

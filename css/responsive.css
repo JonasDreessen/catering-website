@@ -393,6 +393,25 @@ All this is done for any sub-level being entered.
         margin-right: auto;
     }
 
+    .ons-aanbod-header{
+        text-align: center;
+    }
+    .dividing-line-ons-aanbod-header{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .company-logo-mainpage-mobile{
+        visibility: visible !important;
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        z-index: 1;
+        left: 50%;
+        margin-left: -75px;
+        top: 30px;
+        
+    }
+
     /*  HEADER WRAPPER
     --------------------------------------------------------------------- */
 
@@ -501,7 +520,8 @@ All this is done for any sub-level being entered.
         float: none;
     }
     .menu-style-1 .menu-item-description {
-        width: 65%;
+        width: 100%;
+        text-align: center;
     }
     .menu-style-2 .menu-item-description p, .menu-left-shadow .menu-style-2 .menu-item-description p, .menu-right-shadow .menu-style-2 .menu-item-description p {
         padding-right: 10px;
