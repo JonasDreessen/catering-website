@@ -500,21 +500,21 @@
                 <div class="row">
                     <div class="col-md-12 centered">
                             <p class="emphasized-text">Telefoon <a href="tel:0494885535"><span>+32 494 88 55 35</span></a></p>
-                        <p class="emphasized-text">e-mail <a href="mailto:info@nickoscatering.com?subject=offerte aanvraag"><span>nickoscatering@gmail.com</span></a></p>
+                        <p class="emphasized-text">e-mail <a href="mailto:info@nickoscatering.com?subject=offerte aanvraag"><span>info@nickoscatering.be</span></a></p>
                         <!-- form start -->
-                        <form class="wpcf7">
+                        <form class="wpcf7" action="https://formspree.io/info@nickoscatering.com" method="POST">
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-name">
-                                    <input type="text" class="wpcf7-text" id="contact-name" placeholder="Jouw naam">
+                                    <input type="text" class="wpcf7-text" id="contact-name" placeholder="Jouw naam" name="name">
                                 </span>
                                 <span class="wpcf7-form-control-wrap your-email">
-                                    <input type="email" name="email" class="wpcf7-text" id="contact-email" placeholder="Email...">
+                                    <input type="email" name="email" class="wpcf7-text" id="contact-email" placeholder="Email..." name="_replyto">
                                 </span>
                             </fieldset>
 
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-message">
-                                    <textarea rows="8" class="wpcf7-textarea" id="contact-message" placeholder="Bericht..."></textarea>
+                                    <textarea rows="8" class="wpcf7-textarea" id="contact-message" placeholder="Bericht..." name="message"></textarea>
                                 </span>
                             </fieldset>
                             <input type="submit" class="wpcf7-submit btn btn-big black btn-centered" value="Verzenden">
