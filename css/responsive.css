@@ -405,12 +405,12 @@ All this is done for any sub-level being entered.
     .company-logo-mainpage-mobile{
         visibility: visible !important;
         position: absolute;
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         z-index: 1;
         left: 50%;
-        margin-left: -75px;
-        top: 30px;
+        margin-left: -100px;
+        top: 20px;
         
     }
 
